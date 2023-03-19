@@ -25,7 +25,13 @@ const [ showNewsDropdown, setShowNewsDropdown ] = useState(false);
                />
             </Navbar.Brand> 
               <Nav>
-                <Nav.Link href="#home" className={styles["header-navbar-button"]}>HOME</Nav.Link>
+                <NavDropdown 
+                  title="Home" 
+                  className={styles["header-navbar-button"]}
+                  disabled
+                >
+                </NavDropdown>
+
                 <NavDropdown 
                   title="ABOUT US" 
                   onMouseLeave={() => setShowAboutUsDropdown(false)}
@@ -90,8 +96,19 @@ const [ showNewsDropdown, setShowNewsDropdown ] = useState(false);
                   </Container>
                 </NavDropdown>
 
-                <Nav.Link href="#support" className={styles["header-navbar-button"]}>SUPPORT</Nav.Link>
-                <Nav.Link href="#contact" className={styles["header-navbar-button"]}>CONTSCT US</Nav.Link>
+                <NavDropdown 
+                  title="SUPPORT" 
+                  className={styles["header-navbar-button"]}
+                  disabled
+                >
+                </NavDropdown>
+
+                <NavDropdown 
+                  title="CONTSCT US" 
+                  className={styles["header-navbar-button"]}
+                  disabled
+                >
+                </NavDropdown>
               </Nav>
               Search Icon
               Pay Icon
