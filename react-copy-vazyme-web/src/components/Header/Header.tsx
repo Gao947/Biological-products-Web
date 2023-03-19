@@ -25,9 +25,9 @@ const [ showNewsDropdown, setShowNewsDropdown ] = useState(false);
                />
             </Navbar.Brand> 
               <Nav>
-                <Nav.Link href="#home" className={styles["header-navbar-button"]}>Home</Nav.Link>
+                <Nav.Link href="#home" className={styles["header-navbar-button"]}>HOME</Nav.Link>
                 <NavDropdown 
-                  title="About us" 
+                  title="ABOUT US" 
                   onMouseLeave={() => setShowAboutUsDropdown(false)}
                   onMouseOver={() => setShowAboutUsDropdown(true)}
                   className={styles["header-navbar-button"]}
@@ -35,15 +35,15 @@ const [ showNewsDropdown, setShowNewsDropdown ] = useState(false);
                 >
                   <Container className={styles["menu-item"]}>
                     <div className={styles["menu-item-text"]}>
-                      <NavDropdown.Item href="#">Company Profile</NavDropdown.Item>
-                      <NavDropdown.Item href="#">History</NavDropdown.Item>
-                      <NavDropdown.Item href="#">Distributors</NavDropdown.Item>
+                      <NavDropdown.Item href="#">COMPANY PROFILE</NavDropdown.Item>
+                      <NavDropdown.Item href="#">HISTORY</NavDropdown.Item>
+                      <NavDropdown.Item href="#">DISTRIBUTORS</NavDropdown.Item>
                     </div>
                   </Container>
                 </NavDropdown>
 
                 <NavDropdown 
-                  title="Product center" 
+                  title="PRODUCT CENTER" 
                   onMouseLeave={() => setShowProductDropdown(false)}
                   onMouseOver={() => setShowProductDropdown(true)}
                   className={styles["header-navbar-button"]}
@@ -60,7 +60,7 @@ const [ showNewsDropdown, setShowNewsDropdown ] = useState(false);
                 </NavDropdown>
 
                 <NavDropdown 
-                  title="Resource center" 
+                  title="RESOURCE CENTER" 
                   onMouseLeave={() => setShowResourceDropdown(false)}
                   onMouseOver={() => setShowResourceDropdown(true)}
                   className={styles["header-navbar-button"]}
@@ -76,7 +76,7 @@ const [ showNewsDropdown, setShowNewsDropdown ] = useState(false);
                 </NavDropdown>
 
                 <NavDropdown 
-                  title="News" 
+                  title="NEWS" 
                   onMouseLeave={() => setShowNewsDropdown(false)}
                   onMouseOver={() => setShowNewsDropdown(true)}
                   className={styles["header-navbar-button"]}
@@ -84,16 +84,18 @@ const [ showNewsDropdown, setShowNewsDropdown ] = useState(false);
                 >
                   <Container className={styles["menu-item"]}>
                     <div className={styles["menu-item-text"]}>
-                    <NavDropdown.Item href="#action/5.1">Company News</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/5.2">Marketing Promotions</NavDropdown.Item>
+                    <NavDropdown.Item href="#">Company News</NavDropdown.Item>
+                    <NavDropdown.Item href="#">Marketing Promotions</NavDropdown.Item>
                     </div>
                   </Container>
                 </NavDropdown>
 
-                <Nav.Link href="#support" className={styles["header-navbar-button"]}>Support</Nav.Link>
-                <Nav.Link href="#contact" className={styles["header-navbar-button"]}>Contact us</Nav.Link>
-
+                <Nav.Link href="#support" className={styles["header-navbar-button"]}>SUPPORT</Nav.Link>
+                <Nav.Link href="#contact" className={styles["header-navbar-button"]}>CONTSCT US</Nav.Link>
               </Nav>
+              Search Icon
+              Pay Icon
+              ShoppingCart Icon
           </Container>
         </Navbar>
 
