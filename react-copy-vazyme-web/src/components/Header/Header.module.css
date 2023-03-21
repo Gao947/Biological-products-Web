@@ -29,3 +29,9 @@ div.header-navbar-button > a {
     color:black;
     font-size: medium;
 }
+
+.header-icon {
+    color: aliceblue;
+    width: 30;
+    padding: 20px;
+}

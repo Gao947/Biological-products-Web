@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import styles from "../Header/Header.module.css";
 import Image from 'react-bootstrap/Image';
-
+import { Search, Person, Cash, BagPlus, Pause } from 'react-bootstrap-icons';
 import vazymelogo from "../../img/logo1.webp";
 
 function Header(){
@@ -110,9 +110,24 @@ const [ showNewsDropdown, setShowNewsDropdown ] = useState(false);
                 >
                 </NavDropdown>
               </Nav>
-              Search Icon
-              Pay Icon
-              ShoppingCart Icon
+                  <Col>
+                    <Search color="white" size={30} />
+                  </Col>
+                  <Col>
+                    <Person color="white" size={30} />
+                  </Col>
+                  <Col>
+                    <Pause color="white" size={30} />
+                  </Col>
+                  <Col>
+                    <Cash color="white" size={30} />
+                  </Col>
+                  <Col>
+                    <Pause color="white" size={30} />
+                  </Col>
+                  <Col>
+                    <BagPlus color="white" size={30} />
+                  </Col>
           </Container>
         </Navbar>
 
