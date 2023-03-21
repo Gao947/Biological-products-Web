@@ -111,7 +111,16 @@ const [ showNewsDropdown, setShowNewsDropdown ] = useState(false);
                 </NavDropdown>
               </Nav>
                   <Col>
-                    <Search color="white" size={30} />
+                  
+              <button id={styles["header-icon-button"]}
+                type="button"
+                className="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <Search color="white" size={30} />
+              </button>
+
                   </Col>
                   <Col>
                     <Person color="white" size={30} />

@@ -30,8 +30,8 @@ div.header-navbar-button > a {
     font-size: medium;
 }
 
-.header-icon {
-    color: aliceblue;
-    width: 30;
-    padding: 20px;
+#header-icon-button {
+    background-color: rgb(1, 64, 153);
+    margin: 50px;
+    border: none;
 }
