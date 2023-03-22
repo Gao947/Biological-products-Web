@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./App.module.css";
+import CarouselComponent from './components/Carousel/Carousel';
 import Header from "./components/Header/Header";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <Header />
       </div>
       <div>
+      <CarouselComponent />
         Content
       </div>
       <div>
