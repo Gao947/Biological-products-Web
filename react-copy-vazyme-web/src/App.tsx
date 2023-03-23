@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./App.module.css";
 import CarouselComponent from './components/Carousel/Carousel';
+import FooterComponent from './components/footer/Footer';
 import Header from "./components/Header/Header";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         Content
       </div>
       <div>
-        Footer
+        <FooterComponent />
       </div>
     </div>
   );
