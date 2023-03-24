@@ -38,3 +38,9 @@
     font-family: roboto-regular;
     text-decoration: none !important;
 }
+
+.footer-icon-item {
+    margin:20px;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}

@@ -29,17 +29,17 @@ function FooterComponent() {
                             <span className={styles["footer-subtitle"]}>Product center</span>
                         </Row>
                         <Row>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Reagents For Molecular Biology </p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Reagents For Molecular Biology </p>
                         </a>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Reagents For NGS Library Preparation</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Reagents For NGS Library Preparation</p>
                         </a>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Reagents For Bio-Medicine</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Reagents For Bio-Medicine</p>
                         </a>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Reagents For Molecular Diagnosis</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Reagents For Molecular Diagnosis</p>
                         </a>
                         </Row>
                     </Col>
@@ -48,17 +48,17 @@ function FooterComponent() {
                             <span className={styles["footer-subtitle"]}>Resource center</span>
                         </Row>
                         <Row>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Authenticity Query</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Authenticity Query</p>
                         </a>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Experimental Tools</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Experimental Tools</p>
                         </a>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Product Manual</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Product Manual</p>
                         </a>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Featured Articles</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Featured Articles</p>
                         </a>
                         </Row>
                     </Col>
@@ -67,14 +67,14 @@ function FooterComponent() {
                             <span className={styles["footer-subtitle"]}>About us</span>
                         </Row>
                         <Row>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Company Profile</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Company Profile</p>
                         </a>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>History</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>History</p>
                         </a>
-                        <a href="#">
-                            <p className={styles["footer-subtitle-text"]}>Our Distributors</p>
+                        <a href="#" className={styles["footer-subtitle-text"]}>
+                            <p>Our Distributors</p>
                         </a>
                         </Row>
                     </Col>
