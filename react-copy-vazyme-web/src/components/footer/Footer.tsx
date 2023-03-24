@@ -2,8 +2,14 @@ import styles from "./Footer.module.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { Mailbox, Telephone, Cursor } from 'react-bootstrap-icons';
 import Image from 'react-bootstrap/Image';
+import { Form } from "react-bootstrap";
+import Button from 'react-bootstrap/Button';
 
 import colourlogo from "../../img/footer_logo.png";
+import smallicon1 from "../../img/sns1.png";
+import smallicon2 from "../../img/sns2.webp";
+import smallicon3 from "../../img/sns3.webp";
+import smallicon4 from "../../img/sns4.webp";
 
 function FooterComponent() {
     return (
@@ -83,24 +89,42 @@ function FooterComponent() {
                     <Col xl="9">
                         <div>
                         <p>
-                        <Mailbox color="Black" size={30}/>
-                        info.biotech@vazyme.com
+                            <Mailbox color="Black" size={30}/>
+                            <span className={styles["footer-icon-item"]}>info.biotech@vazyme.com</span>
                         </p>
                         </div>
                         <div>
                         <p>
-                        <Telephone color="Black" size={30}/>
-                        +86 25-83772625
+                            <Telephone color="Black" size={30} />
+                            <span className={styles["footer-icon-item"]}>+86 25-83772625</span>
                         </p>
                         </div>
                         <div>
                         <p>
                         <Cursor color="Black" size={30}/>
-                        Red Maple Hi-tech Industry Park, Nanjing, PRC
+                        <span className={styles["footer-icon-item"]}>Red Maple Hi-tech Industry Park, Nanjing, PRC</span>
                         </p>
                         </div>
                     </Col>
-                    <Col xl="3">2.2</Col>
+                    <Col xl="3">
+                        <Row>
+                            <Form.Control
+                                placeholder="Your@email.com"
+                                aria-label="Your@email.com"
+                                aria-describedby="basic-addon2"
+                                id={styles["footer-form"]}
+                            />
+                        </Row>
+                        <Row>
+                        <Button id={styles["footer-button"]}>Sign up</Button>
+                        </Row>
+                        <Row>
+                            <Col className={styles["footer-small-icon"]}><Image src={smallicon1} /></Col>
+                            <Col className={styles["footer-small-icon"]}><Image src={smallicon2} /></Col>
+                            <Col className={styles["footer-small-icon"]}><Image src={smallicon3} /></Col>
+                            <Col className={styles["footer-small-icon"]}><Image src={smallicon4} /></Col>
+                        </Row>
+                    </Col>
                 </Row>
             </Container>
         </div>
