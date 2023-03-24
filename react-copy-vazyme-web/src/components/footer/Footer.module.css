@@ -1,3 +1,8 @@
+.web-footer {
+    padding-top: 60px;
+    background: rgb(238, 241, 245);
+}
+
 #footer-logo {
     border: none;
     vertical-align: middle;
@@ -22,6 +27,13 @@
 
 .footer-subtitle-text {
     color: rgb(114, 113, 113) !important;
+    font-size: 17px;
+    font-family: roboto-regular;
+    text-decoration: none !important;
+}
+
+.footer-subtitle-text:hover {
+    color: rgb(1, 64, 153) !important;
     font-size: 17px;
     font-family: roboto-regular;
     text-decoration: none !important;

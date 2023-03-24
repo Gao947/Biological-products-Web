@@ -1,12 +1,13 @@
 import styles from "./Footer.module.css";
 import { Row, Col, Container } from "react-bootstrap";
+import { Mailbox, Telephone, Cursor } from 'react-bootstrap-icons';
 import Image from 'react-bootstrap/Image';
 
 import colourlogo from "../../img/footer_logo.png";
 
 function FooterComponent() {
     return (
-        <div>
+        <div className={styles["web-footer"]}>
             <Container>
                 <Row>
                     <Col xl="4">
@@ -28,16 +29,16 @@ function FooterComponent() {
                             <span className={styles["footer-subtitle"]}>Product center</span>
                         </Row>
                         <Row>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Reagents For Molecular Biology </p>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Reagents For NGS Library Preparation</p>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Reagents For Bio-Medicine</p>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Reagents For Molecular Diagnosis</p>
                         </a>
                         </Row>
@@ -47,16 +48,16 @@ function FooterComponent() {
                             <span className={styles["footer-subtitle"]}>Resource center</span>
                         </Row>
                         <Row>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Authenticity Query</p>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Experimental Tools</p>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Product Manual</p>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Featured Articles</p>
                         </a>
                         </Row>
@@ -66,21 +67,40 @@ function FooterComponent() {
                             <span className={styles["footer-subtitle"]}>About us</span>
                         </Row>
                         <Row>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Company Profile</p>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>History</p>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <p className={styles["footer-subtitle-text"]}>Our Distributors</p>
                         </a>
                         </Row>
                     </Col>
                 </Row>
                 <Row>
-                    <Col>2.1</Col>
-                    <Col>2.2</Col>
+                    <Col xl="9">
+                        <div>
+                        <p>
+                        <Mailbox color="Black" size={30}/>
+                        info.biotech@vazyme.com
+                        </p>
+                        </div>
+                        <div>
+                        <p>
+                        <Telephone color="Black" size={30}/>
+                        +86 25-83772625
+                        </p>
+                        </div>
+                        <div>
+                        <p>
+                        <Cursor color="Black" size={30}/>
+                        Red Maple Hi-tech Industry Park, Nanjing, PRC
+                        </p>
+                        </div>
+                    </Col>
+                    <Col xl="3">2.2</Col>
                 </Row>
             </Container>
         </div>
