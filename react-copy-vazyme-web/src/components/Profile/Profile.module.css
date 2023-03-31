@@ -1,0 +1,59 @@
+.leftbg1 {
+    align-items: center;
+}
+
+.rightbg {
+    height: 410px !important;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.profile-title {
+    position: absolute;
+    transform: translate(10%, 1200%);
+    font-size: 30px;
+}
+
+.profile-text-1 {
+    position: absolute;
+    transform: translate(10%, 300%);
+    font-size: 23px;
+    color: grey;
+    font-family: roboto-regular;
+}
+
+.profile-text-2 {
+    position: absolute;
+    transform: translate(10%, 2800%);
+    font-size: 22px;
+    color: black;
+}
+
+.profile-text-2:hover {
+    position: absolute;
+    transform: translate(10%, 2800%);
+    font-size: 22px;
+    color: #014099;
+}
+
+.profile-text-3 {
+    position: absolute;
+    transform: translate(10%, 2910%);
+    font-size: 22px;
+    color: black;
+}
+
+.profile-text-3:hover {
+    position: absolute;
+    transform: translate(10%, 2910%);
+    font-size: 22px;
+    color: #014099;
+}
+
+#profile-left-button {
+    position: absolute;
+    transform: translate(120%, 1500%);
+    width:270px;
+    Height: 70px;
+    font-size: 20px;
+}

@@ -3,6 +3,7 @@ import styles from "./App.module.css";
 import CarouselComponent from './components/Carousel/Carousel';
 import FooterComponent from './components/footer/Footer';
 import Header from "./components/Header/Header";
+import ProfileComponent from './components/Profile/Profile';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       </div>
       <div>
       <CarouselComponent />
-        Content
+      <ProfileComponent />
       </div>
       <div>
         <FooterComponent />
