@@ -8,6 +8,10 @@ import rightbg1 from "../../img/rightbg1.png";
 import rightbg2 from "../../img/rightbg2.png";
 import rightbg3 from "../../img/rightbg3.jpg";
 import rightbg4 from "../../img/rightbg4.jpg";
+import icon1 from "../../img/about_icon1.png";
+import icon2 from "../../img/about_icon2.png";
+import icon3 from "../../img/about_icon3.png";
+import icon4 from "../../img/about_icon4.png";
 
 
 function ProfileComponent() {
@@ -35,15 +39,19 @@ function ProfileComponent() {
                 </Col>
                 <Col>
                     <Row>
+                        <Image id={styles["profile-right-icon1"]} src={icon1} />
                         <Image className={styles["rightbg"]} src={rightbg1} />
                     </Row>
                     <Row>
+                        <Image id={styles["profile-right-icon2"]} src={icon2} />
                         <Image className={styles["rightbg"]} src={rightbg2} />
                     </Row>
                     <Row>
+                        <Image id={styles["profile-right-icon3"]} src={icon3} />
                         <Image className={styles["rightbg"]} src={rightbg3} />
                     </Row>
                     <Row>
+                        <Image id={styles["profile-right-icon4"]} src={icon4} />
                         <Image className={styles["rightbg"]} src={rightbg4} />
                     </Row>
                 </Col>

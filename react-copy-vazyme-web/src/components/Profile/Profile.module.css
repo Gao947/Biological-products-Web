@@ -8,6 +8,15 @@
     padding-right: 100px;
 }
 
+.rightbg:hover {
+    height: 410px !important;
+    padding-left: 200px;
+    padding-right: 100px;
+    /* color: #014099; */
+    opacity: 0.4;
+
+}
+
 .profile-title {
     position: absolute;
     transform: translate(10%, 1200%);
@@ -57,3 +66,32 @@
     Height: 70px;
     font-size: 20px;
 }
+
+#profile-right-icon1 {
+    width: 250px;
+    position: absolute;
+    transform: translate(25%, -20%);
+    z-index: 9;
+}
+
+#profile-right-icon2 {
+    width: 250px;
+    position: absolute;
+    transform: translate(25%, -20%);
+    z-index: 9;
+}
+
+#profile-right-icon3 {
+    width: 250px;
+    position: absolute;
+    transform: translate(25%, -20%);
+    z-index: 9;
+}
+
+#profile-right-icon4 {
+    width: 250px;
+    position: absolute;
+    transform: translate(25%, -20%);
+    z-index: 9;
+}
+
