@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./App.module.css";
+import BookComponent from './components/Book/Book';
 import CarouselComponent from './components/Carousel/Carousel';
 import FooterComponent from './components/footer/Footer';
 import Header from "./components/Header/Header";
@@ -14,6 +15,7 @@ function App() {
       <div>
       <CarouselComponent />
       <ProfileComponent />
+      <BookComponent />
       </div>
       <div>
         <FooterComponent />

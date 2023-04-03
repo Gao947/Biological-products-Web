@@ -16,7 +16,7 @@ import icon4 from "../../img/about_icon4.png";
 
 function ProfileComponent() {
     return (
-        <div>
+        <div className={styles["background"]}>
             <Row>
                 <Col>
                     <Row>
