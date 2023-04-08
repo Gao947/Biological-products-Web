@@ -1,3 +1,30 @@
+.contain {
+    padding: 100px;
+    margin: 20px;
+}
+
+#title {
+    color: rgb(41, 41, 41);
+    font-size: 40px;
+    text-align: center;
+    font: Arial, sans-serif;
+    text-size-adjust: none;
+}
+
+#text {
+    font: Arial, sans-serif;
+    color: rgb(117, 117, 117);
+    opacity: 0.63;
+    font-size: 17px;
+    font-family: roboto-regular;
+    text-align: center;
+}
+
 .page {
-    width:300px;
+    width: 320px;
+    align-items: center;
+}
+
+.page-container {
+    margin: 40px;
 }
