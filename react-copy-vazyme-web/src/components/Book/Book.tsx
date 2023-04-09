@@ -70,6 +70,15 @@ function BookComponent(props) {
                         ))}
                     </FlipPage>
                 </Col>
+                <Col>
+                    <FlipPage orientation="horizontal" uncutPages={true}>
+                        {pages.map((page, index) => (
+                            <article key={index} style={{ backgroundColor: page.backgroundColor }}>
+                                {page.content}
+                            </article>
+                        ))}
+                    </FlipPage>
+                </Col>
             </Row>
         </div>
     );
