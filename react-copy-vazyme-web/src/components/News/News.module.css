@@ -4,3 +4,14 @@
     background-position: center;
     Height: 800px;
   }
+
+  .protein-image {
+    position: absolute;
+    top: 4350px;
+    left: 1850px;
+    width: 550px;
+  }
+
+  .protein-image:hover {
+    transform: scale(1.1);
+  }
