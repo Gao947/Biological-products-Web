@@ -5,6 +5,7 @@ import CarouselComponent from './components/Carousel/Carousel';
 import FooterComponent from './components/footer/Footer';
 import Header from "./components/Header/Header";
 import NewsComponent from './components/News/News';
+import PartnerComponent from './components/Partner/Partner.module';
 import ProfileComponent from './components/Profile/Profile';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <ProfileComponent />
       <BookComponent />
       <NewsComponent />
+      <PartnerComponent />
       </div>
       <div>
         <FooterComponent />
