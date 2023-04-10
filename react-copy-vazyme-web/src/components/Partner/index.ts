@@ -1,1 +1,1 @@
-export * from './Partner.module'
+export * from './Partner'

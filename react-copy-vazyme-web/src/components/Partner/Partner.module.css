@@ -18,3 +18,16 @@
     font-family: roboto-regular;
     text-align: center;
 }
+
+.partner-title {
+    font-size: 3ex;
+    font-weight: bold;
+    text-align: center;
+}
+
+.parnter-logo {
+    width:320px !important;
+    height: 400px;
+    padding:20px;
+    text-align: center;
+}
